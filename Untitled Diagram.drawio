@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-18T14:29:17.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 Edg/83.0.478.50" etag="fUOZimC-4QD7VTqyxJvN" version="13.2.6" type="github">
-  <diagram id="RHunsG3qsmhAcjcYPmP-" name="Page-1">
-    <mxGraphModel dx="1021" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2020-07-02T10:36:23.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.58" etag="asvRqtMf3LFsrdT5Rf5V" version="13.3.6" type="github" pages="2">
+  <diagram id="RHunsG3qsmhAcjcYPmP-" name="Contexto">
+    <mxGraphModel dx="868" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,6 +76,132 @@
         </mxCell>
         <mxCell id="zAKa6ue-rQI7wxkRx-mQ-25" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px&quot;&gt;NIVEL DE CONTEXTO&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="279" y="60" width="230" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WAXCseaxVxcxnVZBo0nq" name="Contenedores">
+    <mxGraphModel dx="1550" dy="335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="BjQ3fJPTdxLmF2dBT5aO-0" />
+        <mxCell id="BjQ3fJPTdxLmF2dBT5aO-1" parent="BjQ3fJPTdxLmF2dBT5aO-0" />
+        <mxCell id="hATNDiIyrap7NESMgR2x-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="BjQ3fJPTdxLmF2dBT5aO-1" source="hATNDiIyrap7NESMgR2x-2" target="hATNDiIyrap7NESMgR2x-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-1" value="Gestionar especialidades&lt;br&gt;&lt;br&gt;Activar, desactivar odontologos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hATNDiIyrap7NESMgR2x-0">
+          <mxGeometry x="-0.4502" y="18" relative="1" as="geometry">
+            <mxPoint x="-5" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-2" value="&lt;b&gt;Administrador&lt;br&gt;&lt;/b&gt;&lt;br&gt;Persona designada&amp;nbsp;&lt;br&gt;a gestionar&lt;br&gt;el sistema." style="html=1;dashed=0;whitespace=wrap;fillColor=#144BFF;strokeColor=#6C8EBF;shape=mxgraph.c4.person;align=center;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="260" y="160" width="110.00000000000001" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="BjQ3fJPTdxLmF2dBT5aO-1" source="hATNDiIyrap7NESMgR2x-26" target="hATNDiIyrap7NESMgR2x-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="465" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-4" value="Realizar video llamada" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hATNDiIyrap7NESMgR2x-3">
+          <mxGeometry x="-0.2364" y="2" relative="1" as="geometry">
+            <mxPoint x="3.3299999999999983" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=0.13;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="BjQ3fJPTdxLmF2dBT5aO-1" source="hATNDiIyrap7NESMgR2x-28" target="hATNDiIyrap7NESMgR2x-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="465" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="391" y="560" />
+              <mxPoint x="70" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="BjQ3fJPTdxLmF2dBT5aO-1" source="hATNDiIyrap7NESMgR2x-26" target="hATNDiIyrap7NESMgR2x-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="444" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="BjQ3fJPTdxLmF2dBT5aO-1" source="hATNDiIyrap7NESMgR2x-10" target="hATNDiIyrap7NESMgR2x-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-9" value="Encontrar odontólogos,&amp;nbsp;&lt;br&gt;Iniciar y responder foros,&lt;br&gt;Compartir contactos de odontólogos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hATNDiIyrap7NESMgR2x-8">
+          <mxGeometry x="0.1815" relative="1" as="geometry">
+            <mxPoint x="13" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-10" value="&lt;b&gt;Odontólogo&lt;/b&gt;&lt;br&gt;Profesional en&amp;nbsp;&lt;br&gt;odontología que&amp;nbsp;&lt;br&gt;podrá acceder a&lt;br&gt;la aplicación" style="html=1;dashed=0;whitespace=wrap;fillColor=#144BFF;strokeColor=#6C8EBF;shape=mxgraph.c4.person;align=center;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="530" y="170" width="110.00000000000001" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.601;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="BjQ3fJPTdxLmF2dBT5aO-1" source="hATNDiIyrap7NESMgR2x-13" target="hATNDiIyrap7NESMgR2x-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-12" value="Conectar Odontólogos&lt;br&gt;por medio de una videollamada" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hATNDiIyrap7NESMgR2x-11">
+          <mxGeometry x="-0.499" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-13" value="&lt;b&gt;Sistema para Videollamadas&lt;/b&gt;&lt;br&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Sistema que permitirá realizar videollamadas entre odontólogos&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="790" y="410" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="BjQ3fJPTdxLmF2dBT5aO-1" source="hATNDiIyrap7NESMgR2x-16" target="hATNDiIyrap7NESMgR2x-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-15" value="Enviar notificaciones &lt;br&gt;y correos de verificación" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hATNDiIyrap7NESMgR2x-14">
+          <mxGeometry x="-0.7353" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-16" value="&lt;b&gt;Sistema para envio de email&lt;/b&gt;&lt;br&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Sistema que permitirá enviar notificaciones a los odontólogos mediante su email&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="-90" y="410" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-17" value="&lt;b&gt;Whatsapp&lt;/b&gt;&lt;div&gt;[Sistema de mensajería]&lt;/div&gt;&lt;br&gt;&lt;div&gt;El sistema de mensajería&amp;nbsp;whatsapp permitirá compartir información de un odontólogo a sus potenciales pacientes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="510" y="830" width="220" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-18" value="Enviar Correo electrónico" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;dashed=1;" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="10" y="530" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-19" value="Envía información del odontólogo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="525" y="780" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px&quot;&gt;NIVEL DE CONTENEDORES&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="254" y="30" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-25" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="130" y="400" width="560" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="BjQ3fJPTdxLmF2dBT5aO-1" source="hATNDiIyrap7NESMgR2x-26" target="hATNDiIyrap7NESMgR2x-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-33" value="Https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hATNDiIyrap7NESMgR2x-32">
+          <mxGeometry x="-0.2933" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-26" value="&lt;span&gt;&lt;b&gt;Aplicación móvil&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;Flutter&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;Permite a los odontologos: realizar videollamadas, crear y responder foros, enviar contactos" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="470" y="460" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="BjQ3fJPTdxLmF2dBT5aO-1" source="hATNDiIyrap7NESMgR2x-27" target="hATNDiIyrap7NESMgR2x-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-27" value="&lt;span&gt;&lt;b&gt;Aplicación web&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;Laravel&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;Permite al administrador, gestionar especialidades, activar, desactivar odontologos" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="270" y="440" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="BjQ3fJPTdxLmF2dBT5aO-1" source="hATNDiIyrap7NESMgR2x-28" target="hATNDiIyrap7NESMgR2x-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-36" value="lee y&lt;br&gt;escribe&amp;nbsp;&lt;br&gt;registros" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hATNDiIyrap7NESMgR2x-35">
+          <mxGeometry x="0.3519" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-28" value="&lt;span&gt;&lt;b&gt;Backend&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;Laravel&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;Provee servicios a la aplicación" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="370" y="600" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="hATNDiIyrap7NESMgR2x-34" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;technology]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Description&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="BjQ3fJPTdxLmF2dBT5aO-1">
+          <mxGeometry x="150" y="610" width="140" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
